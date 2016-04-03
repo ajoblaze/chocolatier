@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.choco.chocolatier">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/chocolatier"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile" />
+        <activity
+            android:name=".HistoryActivity"
+            android:label="@string/title_activity_history" />
+        <activity
+            android:name=".CheckOutActivity"
+            android:label="@string/title_activity_check_out" />
+        <activity android:name=".AboutActivity"></activity>
+    </application>
+
+</manifest>
